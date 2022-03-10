@@ -102,13 +102,15 @@
                                 class="sr-only" 
                                 for="amount">Valor</label>
                             <input 
-                                type="string"
+                                type="number"
+                                step="0,01"
                                 id="amount" 
                                 name="amount"
-                                placeholder="Digite o valor"
+                                placeholder="0,00"
                             />
+                            <small class="help">Use o sinal - (negativo) para despesas e , (vírgula) para casas decimais</small>
                         </div>
-                        <span>Utilize vírgula(,) para separar casas decimais. Coloque o sinal de negativo (-) previamente para indicar valores negativos </span>
+
 
                         <div class="input-group">
                             <label 
