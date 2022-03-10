@@ -1,0 +1,7 @@
+ Problema apresentado em Mobile: 
+   | Alguns aparelhos antigos não conseguem utilizar o sinal de negativo no numpad criado devido ao input de type number no modal. 
+   
+  Solução possível: 
+   Adicionar um segundo campo no formulário destinado a valores negativos automáticos através do HTML e do JavaScript. Em resumo, haverá um campo que pegará qualquer valor digitado
+   transformando ele numa variável x¹ e duplicando uma variável x² com o mesmo valor, em seguida, multiplicando o x² por 2. O valor final será uma subtração de x¹ - x², convertendo
+   o x¹ para -x¹. Uma segunda e mais simples tentativa seria criar um segundo campo onde quando um valor for inserido, o JavaScript adicione o sinal negativo atrás do número.
