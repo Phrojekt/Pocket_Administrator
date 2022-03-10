@@ -118,6 +118,7 @@ const DOM = {
 
 const Utils = {
     formatAmount(value){
+        parseFloat(amount)
         value = Number(value.replace(/\,\./g, "")) * 100
         
         return value
@@ -133,7 +134,7 @@ const Utils = {
 
         value = String(value).replace(/\D/g, "")
 
-        value = Number(value) / 100
+        value = String(value) / 100
 
         value = value.toLocaleString("pt-BR", {
             style: "currency",
